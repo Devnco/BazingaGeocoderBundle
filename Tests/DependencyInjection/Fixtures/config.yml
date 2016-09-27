@@ -44,5 +44,7 @@ bazinga_geocoder:
         opencage:
             locale: en_US
             api_key: 123
+        geonames:
+            username: 123
         chain:
             providers: [free_geo_ip, host_ip]

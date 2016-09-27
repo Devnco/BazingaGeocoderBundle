@@ -69,6 +69,7 @@ class BazingaGeocoderExtensionTest extends \PHPUnit_Framework_TestCase
             'chain' => 'Geocoder\\Provider\\Chain',
             'maxmind_binary' => 'Geocoder\\Provider\\MaxmindBinary',
             'opencage' => 'Geocoder\\Provider\\OpenCage',
+            'geonames' => 'Geocoder\\Provider\\Geonames',
         ) as $name => $class) {
             $this->assertInstanceOf($class, $providers[$name], sprintf('-> Assert that %s is instance of %s', $name, $class));
         }

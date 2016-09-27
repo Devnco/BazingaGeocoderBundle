@@ -26,7 +26,7 @@
         <parameter key="bazinga_geocoder.geocoder.provider.cache.class">Bazinga\Bundle\GeocoderBundle\Provider\Cache</parameter>
         <parameter key="bazinga_geocoder.geocoder.provider.chain.class">Geocoder\Provider\Chain</parameter>
         <parameter key="bazinga_geocoder.geocoder.provider.tom_tom.class">Geocoder\Provider\TomTom</parameter>
-
+        <parameter key="bazinga_geocoder.geocoder.provider.geonames.class">Geocoder\Provider\Geonames</parameter>
 
         <parameter key="bazinga_geocoder.logger.class">Bazinga\Bundle\GeocoderBundle\Logger\GeocoderLogger</parameter>
 

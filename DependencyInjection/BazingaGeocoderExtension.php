@@ -178,6 +178,14 @@ class BazingaGeocoderExtension extends Extension
             ));
         }
 
+        if (isset($config['providers']['geonames'])) {
+            $geonamesParams = $config['providers']['geonames'];
+
+            $this->addProvider('geonames', array(
+                $geonamesParams['username']
+            ));
+        }
+
         if (isset($config['providers']['cache'])) {
             $params = $config['providers']['cache'];
             $cache = new Reference($params['adapter']);
